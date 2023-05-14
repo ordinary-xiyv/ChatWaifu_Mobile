@@ -92,7 +92,8 @@
         android:theme="@style/ThemeOverlay.Material3.TextInputEditText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/send_msg_button"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,RtlSymmetry" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/send_msg_button"

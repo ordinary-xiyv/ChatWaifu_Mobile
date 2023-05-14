@@ -541,7 +541,7 @@ private fun UserInputText(
                         onValueChange = { onTextChanged(it) },
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(start = 32.dp)
+                            .padding(start = 32.dp ,end= 90.dp)
                             .align(Alignment.CenterStart)
                             .onFocusChanged { state ->
                                 if (lastFocusState != state.isFocused) {
@@ -553,7 +553,8 @@ private fun UserInputText(
                             keyboardType = keyboardType,
                             imeAction = ImeAction.Send
                         ),
-                        maxLines = 1,
+                        minLines = 1,
+                        maxLines = 3,
                         cursorBrush = SolidColor(LocalContentColor.current),
                         textStyle = LocalTextStyle.current.copy(color = LocalContentColor.current)
                     )
