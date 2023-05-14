@@ -106,7 +106,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/input_edit_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/input_edit_text" />
+        app:layout_constraintTop_toTopOf="@id/input_edit_text"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChatWaifu_Mobile</string>
+    <string name="app_name">nekoのchat</string>
     <string name="title_activity_chat">ChatActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
