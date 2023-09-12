@@ -76,3 +76,5 @@ live2d 模型的名字与需要与 vits 模型的目录名一致，Live2D 的 mo
 
 # 说明视频
 https://www.bilibili.com/video/BV1w24y1K799/
+
+# 测试推送
